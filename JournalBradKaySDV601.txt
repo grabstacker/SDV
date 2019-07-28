@@ -1,3 +1,15 @@
 Journal Brad Kay GitHub introduction
 
-toDo....
+Some commands based around GitHub
+
+git pull --> gets all the latest documents from the github repository
+git checkout -b develop --> branches the repository for changes
+git add .
+git commit -m "message"
+
+merging
+git checkout master
+git merge branchname
+git status
+git commit -m "message"
+git push origin master
