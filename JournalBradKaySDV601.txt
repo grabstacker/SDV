@@ -15,5 +15,3 @@ git commit -m "message"
 git push origin master
 
 one change
-
-some edits from the git commands
