@@ -16,4 +16,9 @@ git push origin master
 
 one change
 
+Week 2
+Am currently working on the tutorials supplied on moodle and learning how to use github with git commands
+This is going well and I am feeling alot more confident in git now!
 
+Week 2 second entry
+Have finished the game proposal on the website blog and added a picture for reference.
