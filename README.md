@@ -1,6 +1,6 @@
 # SDV WorkSpace for Brad Kay
 
-One Paragraph of project description goes here
+This is the workspace for brad kay in sdv602 with Todd lecturer.
 
 ## Getting Started
 
