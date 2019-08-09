@@ -2,10 +2,12 @@ Journal Brad Kay GitHub introduction
 
 Some commands based around GitHub
 
+git clone (repository) <-- downloads the repository from github and creates a local copy that can be edited.
 git pull --> gets all the latest documents from the github repository
 git checkout -b develop --> branches the repository for changes
-git add .
-git commit -m "message"
+git add . <-- stages files to be pushed with a commit
+git commit -m "message" <-- creates a commit to be qued for push
+git remote -v <-- checks for remote urls that are currently set
 
 merging
 git checkout master
@@ -14,7 +16,15 @@ git status
 git commit -m "message"
 git push origin master
 
-one change
+$ pwd
+/c/Users/Brad-Kay/Documents/LocalGit/JS-bootcamp
+
+Some random node commands
+node <-- lists the help files and info about the node software
+cd <-- change directory
+ls <== list all files in a directory
+node (file) <-- runs a file inside the node server
+
 
 Week 2
 Am currently working on the tutorials supplied on moodle and learning how to use github with git commands
@@ -29,6 +39,7 @@ Week 3
 Joined team middle desk and started to brainstorm with the game idea of the team. TeamMiddleDesk
 We constructed a wireframe and a test use case and will use this to imp[lement into out own games
 and project.]
+
 
 week 4
 Talked to the app developers in class about the class overseas and they gave a small presentation
