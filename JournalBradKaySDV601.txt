@@ -22,12 +22,19 @@ This is going well and I am feeling alot more confident in git now!
 
 Week 2 second entry
 Have finished the game proposal on the website blog and added a picture for reference.
+Have added the game proposal link here https://bradscode.science.blog/2019/07/25/game-proposal/
+This is a draft and will be refined before milestone 1
 
 Week 3
 Joined team middle desk and started to brainstorm with the game idea of the team. TeamMiddleDesk
+We constructed a wireframe and a test use case and will use this to imp[lement into out own games
+and project.]
 
 week 4
 Talked to the app developers in class about the class overseas and they gave a small presentation
 and walked around the class looking at our work
 They show us a safety app they had created with fire and trip safety and talked about unity and the demand
-for the jobs in thier country
+for the jobs in thier country.
+
+Looked into the Wireframe and different terrains and possible setup of the game
+inside Unity. This has given me a better idea of how to refine the game proposal
