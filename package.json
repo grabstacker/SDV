@@ -1,0 +1,19 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "I am demonstrating npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grabstacker/SDV.git"
+  },
+  "author": "brad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grabstacker/SDV/issues"
+  },
+  "homepage": "https://github.com/grabstacker/SDV#readme"
+}

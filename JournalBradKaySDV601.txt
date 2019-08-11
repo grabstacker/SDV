@@ -25,6 +25,10 @@ cd <-- change directory
 ls <== list all files in a directory
 node (file) <-- runs a file inside the node server
 
+NPM
+Node package manager
+npm init <-- initialise a new project and setup defaults
+
 
 Week 2
 Am currently working on the tutorials supplied on moodle and learning how to use github with git commands
@@ -49,3 +53,9 @@ for the jobs in thier country.
 
 Looked into the Wireframe and different terrains and possible setup of the game
 inside Unity. This has given me a better idea of how to refine the game proposal
+ 
+ 
+Wireframes
+Added two wireframes to the git repository with a mock up of the game style and a more indepth view of the actual gameplay screens in the wireframeMain image.
+The images are high resolution so to view correctly must be downloaded from github as the image viewer on github does not automatically strectch to fit 
+screen size.
