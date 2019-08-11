@@ -101,3 +101,19 @@ Observer pattern looks for events in the program
         Unity doesn't remember states unless specifically told to.
         * its also tries to run everything at once unless you give it order
         Singleton is a single instance in an application like static classes
+
+    Example of the structure of a static instance
+        class GameManager : MonoBehavior{
+            static GameManager instance;
+            void awake(){
+                if (instance == null){
+                instance = this;
+                }
+            }
+        }
+        game1.instance.inventory
+        lblPlayerName.text = game1.instance.playerId 
+    <So this is all based around having a static instance that is not overwritten for each event and keeps the instance until the session is finished.></So>
+***********
+    This game is going to have to be multiplayer so will have to  think about states and sessions across 2 computers and what global variables and databases will be interacting together to keep track of the different players states. Also the game will need different jumps and backgrounds possibly for scenes
+***********
