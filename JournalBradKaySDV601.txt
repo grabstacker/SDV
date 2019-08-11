@@ -59,3 +59,8 @@ Wireframes
 Added two wireframes to the git repository with a mock up of the game style and a more indepth view of the actual gameplay screens in the wireframeMain image.
 The images are high resolution so to view correctly must be downloaded from github as the image viewer on github does not automatically strectch to fit 
 screen size.
+
+*Possibly need to implement multiplayer and some other features but unsure with my style game if thats nessacary or i can focus on other areas of the games
+design
+
+*clarify with todd the missing features from the storyboard and if they applie to my game type.
