@@ -117,3 +117,26 @@ Observer pattern looks for events in the program
 ***********
     This game is going to have to be multiplayer so will have to  think about states and sessions across 2 computers and what global variables and databases will be interacting together to keep track of the different players states. Also the game will need different jumps and backgrounds possibly for scenes
 ***********
+
+*********class notes 19/08/19*********
+Evan is taking a tutorial class today
+we have immported some assests into Unity and created a sample project to explorer the Unity Unity
+We created a 16:9 canvas and added a few images and buttons that are clickable.
+I changed the OnClick() variable to switch between the two different button images to
+create an impression effect on the button.
+
+The anchor point on my car game project was not centered and Evan showed me how to reset it back
+to the base of the car
+
+Added a collision detection to the car and a rigid body to have in interact with the worlds ground
+and not fall through it.
+
+The camera was not attached to the car so moved it in the explorer panel
+Will attach a smooth camera to the car to track the car as it moves
+
+also need to attach a movement module to the car so the user can control it in the game.
+
+The terrain was far to big so resized it to fit the game style
+
+We also learnt about panels and the use of grouping buttons and objects into the panel for easy
+alignment.
