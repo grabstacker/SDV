@@ -140,3 +140,14 @@ The terrain was far to big so resized it to fit the game style
 
 We also learnt about panels and the use of grouping buttons and objects into the panel for easy
 alignment.
+
+****** Class 9/09/19 ******************************
+
+Game has been handed in with working jump and user interface
+
+Serialisation
+    Persistence
+    User prefs
+    Scritable objects
+
+    used for keeping or holding a state of a program. Lists and other objects are <Serialisable></Serialisable>
