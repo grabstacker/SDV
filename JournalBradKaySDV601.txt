@@ -151,3 +151,58 @@ Serialisation
     Scritable objects
 
     used for keeping or holding a state of a program. Lists and other objects are <Serialisable></Serialisable>
+    <binaryFormatter></binaryFormatter>
+    Filestream
+
+
+*****************Class 14/10/19**************************
+
+Game Domain Classes List:
+
+score
+    increment
+    decrement
+player
+    name
+    score
+ 
+state
+    history
+
+Game Control Classes List:
+
+obstacle
+    ramp
+    rocks
+    falling 
+
+interact
+    hit obstacles
+    car control 'wsda' keys
+
+gameLoop
+    newGame?
+    loopStart
+    loopEnd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
