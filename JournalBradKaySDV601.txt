@@ -160,23 +160,27 @@ Serialisation
 Game Domain Classes List:
 
 score
+    initial state
     increment
     decrement
 player
     name
     score
- 
+    
 state
     history
-
+    
 Game Control Classes List:
 
 obstacle
     ramp
     rocks
     falling 
+    Goal
+    score Increase/Decrease
 
 interact
+    menu interaction
     hit obstacles
     car control 'wsda' keys
 
@@ -184,6 +188,7 @@ gameLoop
     newGame?
     loopStart
     loopEnd
+    loopStopMidGame
 
 
 
