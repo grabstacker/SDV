@@ -30,22 +30,22 @@ Node package manager
 npm init <-- initialise a new project and setup defaults
 
 
-Week 2
+Week 2 ****
 Am currently working on the tutorials supplied on moodle and learning how to use github with git commands
 This is going well and I am feeling alot more confident in git now!
 
-Week 2 second entry
+Week 2 second entry ****
 Have finished the game proposal on the website blog and added a picture for reference.
 Have added the game proposal link here https://bradscode.science.blog/2019/07/25/game-proposal/
 This is a draft and will be refined before milestone 1
 
-Week 3
+Week 3 ****
 Joined team middle desk and started to brainstorm with the game idea of the team. TeamMiddleDesk
 We constructed a wireframe and a test use case and will use this to imp[lement into out own games
 and project.]
 
 
-week 4
+week 4 ****
 Talked to the app developers in class about the class overseas and they gave a small presentation
 and walked around the class looking at our work
 They show us a safety app they had created with fire and trip safety and talked about unity and the demand
@@ -55,12 +55,159 @@ Looked into the Wireframe and different terrains and possible setup of the game
 inside Unity. This has given me a better idea of how to refine the game proposal
  
  
-Wireframes
+Wireframes ****
 Added two wireframes to the git repository with a mock up of the game style and a more indepth view of the actual gameplay screens in the wireframeMain image.
 The images are high resolution so to view correctly must be downloaded from github as the image viewer on github does not automatically strectch to fit 
 screen size.
 
 *Possibly need to implement multiplayer and some other features but unsure with my style game if thats nessacary or i can focus on other areas of the games
 design
+**** Yes multiplayer is a requirement
 
-*clarify with todd the missing features from the storyboard and if they applie to my game type.
+*clarify with todd the missing features from the storyboard and if they apply to my game type.
+
+12/08/19 class Monday ****
+provide a report on top of everything uml functional test table and story board
+5 or 6 pages summary on the report with the video talking about experience with report
+all of the above stuff put into the document
+*Make a navigation controller possibly instead of just linking to the next screen
+*Keep naming conventions clear about the object that's being describe in the code.
+
+*Upload everything to github
+
+Model View Controller ****
+
+Game Objects and Classes****
+Observer pattern looks for events in the program
+*Model
+    SceneFocus needs to be tracked
+        Dictionary used to keep track of different SceneFocus main, game, win and a list of actions that are able to be made on each scene
+
+        Could use a domain model for representation of the scene    
+        one of the elements could be an inventory or high score 
+*View
+    Scenes --> editing these views
+
+    Gui components in unity accept text inputs etc
+    These components have little hooks to merge into the controller to communicate
+*Controller
+    Classes 
+        CommandInput <-- or something
+        ButtonEvent
+            Has an action associated to the button being clicked
+        Super Classes  
+            Need to control the program through superclasses like Move--> and MoveLeft--> MoveRight
+            Move being the superclass which is inherited from by MoveLeft and MoveRight
+        Unity doesn't remember states unless specifically told to.
+        * its also tries to run everything at once unless you give it order
+        Singleton is a single instance in an application like static classes
+
+    Example of the structure of a static instance
+        class GameManager : MonoBehavior{
+            static GameManager instance;
+            void awake(){
+                if (instance == null){
+                instance = this;
+                }
+            }
+        }
+        game1.instance.inventory
+        lblPlayerName.text = game1.instance.playerId 
+    <So this is all based around having a static instance that is not overwritten for each event and keeps the instance until the session is finished.></So>
+***********
+    This game is going to have to be multiplayer so will have to  think about states and sessions across 2 computers and what global variables and databases will be interacting together to keep track of the different players states. Also the game will need different jumps and backgrounds possibly for scenes
+***********
+
+*********class notes 19/08/19*********
+Evan is taking a tutorial class today
+we have immported some assests into Unity and created a sample project to explorer the Unity Unity
+We created a 16:9 canvas and added a few images and buttons that are clickable.
+I changed the OnClick() variable to switch between the two different button images to
+create an impression effect on the button.
+
+The anchor point on my car game project was not centered and Evan showed me how to reset it back
+to the base of the car
+
+Added a collision detection to the car and a rigid body to have in interact with the worlds ground
+and not fall through it.
+
+The camera was not attached to the car so moved it in the explorer panel
+Will attach a smooth camera to the car to track the car as it moves
+
+also need to attach a movement module to the car so the user can control it in the game.
+
+The terrain was far to big so resized it to fit the game style
+
+We also learnt about panels and the use of grouping buttons and objects into the panel for easy
+alignment.
+
+****** Class 9/09/19 ******************************
+
+Game has been handed in with working jump and user interface
+
+Serialisation
+    Persistence
+    User prefs
+    Scritable objects
+
+    used for keeping or holding a state of a program. Lists and other objects are <Serialisable></Serialisable>
+    <binaryFormatter></binaryFormatter>
+    Filestream
+
+
+*****************Class 14/10/19**************************
+
+Game Domain Classes List:
+
+score
+    initial state
+    increment
+    decrement
+player
+    name
+    score
+    
+state
+    history
+    
+Game Control Classes List:
+
+obstacle
+    ramp
+    rocks
+    falling 
+    Goal
+    score Increase/Decrease
+
+interact
+    menu interaction
+    hit obstacles
+    car control 'wsda' keys
+
+gameLoop
+    newGame?
+    loopStart
+    loopEnd
+    loopStopMidGame
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
