@@ -194,6 +194,28 @@ gameLoop
 
 
 
+********** Update 30/10/19 ************
+
+Creating scripts and login mysql db for the car hoops game. 
+
+This will use salts and hashes to communicate passwords and store them in a db created using
+mamp as a server host and phpmyadmin for the serverside protocol.
+Php scripts are used to interact with the db in the car hoops application.
+
+To run the db successfully with the program a local or hosted server must be accessable from the applications
+running location in order for a user to login.
+
+The Db is named: "car_hoops_db"
+
+It has a player table with the columns:
+
+id : int(10) : auto increment
+name : varchar(16)
+hash : varchar(100)
+salt : varchar(50)
+score : int(10)
+
+
 
 
 
